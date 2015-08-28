@@ -11,6 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   # The script is created base on Ubuntu14, please replace your box accordingly.
+  config.vm.box_download_insecure = "true"
   config.vm.box = "ubuntu/trusty32"
 
   config.vm.provision "file", source: "Gemfile", destination: "~/Gemfile"
