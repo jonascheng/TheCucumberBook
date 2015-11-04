@@ -13,4 +13,4 @@ Feature: Search
     | URL                                   | Keyword       | Search Field  | Search Button | Expected Result                         |
     | http://www.google.com/ncr             | cucumber bdd  | q             | Google Search | BDD Tool Cucumber is Not a Testing Tool |
     | http://www.bing.com/                  | cucumber bdd  | q             | Search        | BDD Kickstart·Cucumber                  |
-    | http://www.bing.com/search?q=cucumber | cucumber bdd  | q             | Search        | Behavior Driven Development             |
+    | http://www.bing.com/search?q=cucumber | test  | q             | Search        | Behavior Driven Development             |
